@@ -3,7 +3,6 @@
 // Imports
 import { useRouter } from "next/router";
 import styles from "../styles/Toolbar.module.css";
-import { useSession, signIn, signOut } from 'next-auth/react';
 
 // Functional Component
 export const Toolbar = () => {
